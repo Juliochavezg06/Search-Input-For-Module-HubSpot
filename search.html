@@ -1,0 +1,10 @@
+<form action="/{{ site_settings.content_search_results_page_path }}">
+  <input type="search" class="hs-search-field__input" name="term" autocomplete="off" placeholder="{{ module.placeholder }}">
+  {# 
+  You can set additional search parameters by adding hidden inputs 
+  like the example below. Both the typeahead and search results 
+  modules will accept these, except 'limit' which only works for results.
+
+  <input type="hidden" name="limit" value="5">
+  #}
+</form>
